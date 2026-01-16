@@ -1,2 +1,2 @@
-                                                                SimpleHunger Plugin, adds hunger system to Hytale.
+SimpleHunger Plugin, adds hunger system to Hytale.
                                                                 
