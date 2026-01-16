@@ -1,0 +1,21 @@
+{
+  "Group": "ru.astemir.simplehunger",
+  "Name": "SimpleHunger-Mixin",
+  "Version": "1.0.0",
+  "Description": "Used for hunger system mixins.",
+  "Authors": [
+    {
+      "Name": "Astemir"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Hyxin": {
+    "Configs": [
+      "superhunger.mixins.json"
+    ]
+  }
+}

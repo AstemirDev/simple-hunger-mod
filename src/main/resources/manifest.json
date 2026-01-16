@@ -1,0 +1,20 @@
+{
+  "Group": "ru.astemir.simplehunger",
+  "Name": "SimpleHunger",
+  "Version": "1.0.0",
+  "Description": "Adds hunger system to the game.",
+  "Authors": [
+    {
+      "Name": "Astemir",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "ru.astemir.simplehunger.SimpleHungerMod",
+  "IncludesAssetPack": true
+}
