@@ -8,6 +8,8 @@ import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
 public class HungerHud extends CustomUIHud {
 
+    public static final String ID = "HungerHud";
+
     public HungerHud(@NonNullDecl PlayerRef playerRef) {
         super(playerRef);
     }

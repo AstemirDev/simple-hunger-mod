@@ -38,7 +38,7 @@ public class SimpleHungerMod extends JavaPlugin {
             Store<EntityStore> store = ref.getStore();
             store.addComponent(ref, this.hungerComponentType);
             PlayerRef playerRef = ref.getStore().getComponent(ref, PlayerRef.getComponentType());
-            HudStacker.open(player.getHudManager(),playerRef , new HungerHud(playerRef));
+            HudStacker.open(player,playerRef , new HungerHud(playerRef), HungerHud.ID);
         });
         this.cfg.save();
     }

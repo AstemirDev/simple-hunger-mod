@@ -93,7 +93,7 @@ public class HungerSystem extends EntityTickingSystem<EntityStore>{
         } else {
             hungerData.setLerpedHunger(hungerData.getLerpedHunger() + diff * Math.min(dt * 5.0f, 1.0f));
         }
-        HudStacker.ifGet(player.getHudManager(), HungerHud.class, hud -> {
+        HudStacker.ifGet(player, HungerHud.ID, HungerHud.class, hud -> {
             hud.updateValues(player.getGameMode(), hungerData.getLerpedHunger() / hungerStat.getMax());
         });
     }

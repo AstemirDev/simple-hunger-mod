@@ -1,7 +1,6 @@
 {
-  "InitialValue": 100,
-  "Min": 0,
-  "Max": 100,
-  "Shared": true,
-  "ResetType": "MaxValue"
+  "InitialValue":100,
+  "Min":0,"Max":100,
+  "Shared":true,
+  "ResetType":"MaxValue"
 }

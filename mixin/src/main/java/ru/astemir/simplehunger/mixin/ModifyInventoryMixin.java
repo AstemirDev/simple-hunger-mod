@@ -23,7 +23,7 @@ public abstract class ModifyInventoryMixin {
     private void simpleHunger$afterModify(InteractionType type, InteractionContext context, CooldownHandler cooldownHandler, CallbackInfo ci) {
         if (context.getChain() != null) {
             String rootId = context.getChain().getRootInteraction().getId();
-            if (rootId != null && (rootId.contains("Consume_Food") || rootId.contains("Consume_Drink"))) {
+            if (rootId != null && (rootId.contains("Food"))) {
                 Object item = context.getOriginalItemType();
                 Object entity = context.getEntity();
                 if (item == null) return;

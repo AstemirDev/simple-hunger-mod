@@ -3,11 +3,11 @@ plugins {
 }
 
 group = "ru.astemir.simplehunger"
-version = "1.0-SNAPSHOT"
+version = "1.01-SNAPSHOT"
 
 val userHome = System.getProperty("user.home")
 val hytaleServerPath = "$userHome/Desktop/HytaleServer"
-val hytaleDownloadDir = "C:/HytaleServerDownloader/2026.01.13-dcad8778f/Server"
+val hytaleDownloadDir = "C:/HytaleServerDownloader/"
 
 repositories {
     mavenCentral()

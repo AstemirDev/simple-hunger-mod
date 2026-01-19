@@ -1,7 +1,7 @@
 {
   "Group": "ru.astemir.simplehunger",
   "Name": "SimpleHunger",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Adds hunger system to the game.",
   "Authors": [
     {
